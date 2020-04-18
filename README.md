@@ -43,7 +43,7 @@ OpenVINO is mainly composed of two parts: Model Optimizer and Inference Engine. 
 
 Model Optimizer produces an Intermediate Representation (IR) of the network, which can be read, loaded, and inferred with the Inference Engine.
 
-![Work Flow of Openvino](\DocumentSuppport\Drawing1.png)
+![Work Flow of Openvino](/Image/Drawing1.png)
 
 In this application, we first use the Pytorch framework on the PC platform to train the neural network on GPU, and export the trained network to the ONNX format. Model Optimizer will be used to convert the trained neural network into IR format. Copy the common format network to the Linux platform and deploy it on NCS through Linux's Inference Engine.
 
