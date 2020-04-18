@@ -65,7 +65,7 @@ The recyclable bin can be divided into 3 parts including identification area(Top
 
 ## Hardware Design
 
-![Hardware Design](\DocumentSuppport\Hardware.png)
+![Hardware Design](/Image/Hardware.png)
 
 The image illustrates the framework of the hardware design including power management and processing flow.  
 
