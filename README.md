@@ -1,6 +1,10 @@
 # Openvino_RubbishClassification
-[TOC]
-
+```mermaid
+1. Image -> The Folder contains images' source which are used in Markdown File;
+2. ModelOptimizer -> Explain How to convert your ONNX file to INTEL IR Model via OpenVINO;
+3. TestOnWin10 -> Test your IR Model on Win10;
+4. Train -> Train a ONNX model using Pytorch
+```
 # Introduction
 
 This project presents an AI driven Energy Efficient Recyclable Bin which sorts the recyclables into 4 types including metal, plastic, paper, and glass. We deploy Intel neural computing sticks(NCS) on embedded Linux systems to establish a complete embedded computer vision system. The image of the recyclable object is captured via camera, and will be classified and processed by the depth neural network. After processing, the operating system drives the servo mechanism to complete the classification of recyclables. Meanwhile, we also designed an energy collection system for the whole system, which is composed of solar panels, lithium batteries and power management system. Through this energy collection system, the above embedded system can be guaranteed to run without power grid.
